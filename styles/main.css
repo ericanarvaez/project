@@ -1,0 +1,178 @@
+/*------------------------
+Name: Erica Narvaez
+Professor: Arthur Hendela
+IS 117-102
+Spring 2022
+Due Date: 4/25/2022 6:35pm
+
+ -------------------------*/
+
+body {
+    /*background-color: whitesmoke;*/
+    background-color:#0d6efd;
+    font-family: Futura;
+}
+
+/*----------------------- Header -----------------------*/
+
+header {
+    background-color:#0d6efd;
+    border-bottom-color: black;
+}
+
+/*Company Logo/name*/
+.navbar-brand {
+    margin-left: 10px;
+    color: #310250;
+    font-weight: bold;
+
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 80px;
+}
+
+/*Nav Bar Styles*/
+header .nav-link {
+    /*color: #1D3124;*/
+    color: #310250;
+}
+
+header .navbar-toggler-icon img {
+    padding-top: 5px;
+    z-index: -1;
+}
+
+/*Drop Down Menu*/
+header .dropdown-menu {
+    background-color:#0d6efd;
+}
+
+.social img {
+    padding-right: 5px;
+
+}
+/*-----------------------        -----------------------*/
+
+/*----------------------- Carousel -----------------------*/
+.car {
+    margin-bottom: 10px;
+}
+.carousel-inner img {
+    height: 450px;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    /*width: 200px;*/
+}
+
+.carousel-inner .container-sm > h2 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    padding-left: 100px;
+    padding-right: 20px;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+
+}
+
+.carousel-inner .container-sm > p {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    padding-left: 100px;
+    padding-right: 20px;
+    background-color: transparent;
+    color: black;
+    font-style: italic;
+
+}
+/*-----------------------       -----------------------*/
+
+/*-----------------------   4 Box Panel    -----------------------*/
+
+.panel {
+    /*height: 310px;*/
+    position: static;
+    margin-top: 50px;
+    align-content: center;
+    background-color: white;
+}
+
+.panel h5 {
+    padding-top: 15px;
+    font-weight: bolder;
+    color: #310250;
+}
+
+.panel h5 a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #310250;
+}
+
+.panel p {
+    color: #360860;
+    padding-top: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+}
+
+.card:hover {
+    background-color: white;
+}
+
+.cardTitle {
+    color: #360860;
+    font-weight: bolder;
+}
+
+/*----------------------- Jumbotron -----------------------*/
+
+.ins {
+    color:white !important;
+    background: rgb(0,48,217);
+    background: linear-gradient(52deg, rgba(0,48,217,1) 12%, rgba(28,96,231,1) 28%,
+    rgba(4,103,237,1) 39%, rgba(91,152,224,1) 58%, rgba(90,118,227,1) 71%,
+    rgba(107,98,223,1) 82%, rgba(89,85,208,1) 90%);
+
+}
+.insurance {
+    margin-top: 20px;
+}
+
+.insurance {
+    text-align: center;
+    font-weight: bolder;
+    /*color: #360860*/
+    color: white;
+}
+
+.spacing li{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/*-----------------------           -----------------------*/
+
+/*----------------------- Footer -----------------------*/
+
+/* the styles for the footer */
+.footer{
+    text-align: center;
+}
+/*-----------------------        -----------------------*/

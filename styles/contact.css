@@ -1,0 +1,84 @@
+/*------------------------
+Name: Erica Narvaez
+Professor: Arthur Hendela
+IS 117-102
+Spring 2022
+Due Date: 4/25/2022 6:35pm
+
+-------------------------*/
+body {
+    background-color: whitesmoke;
+    font-family: Futura;
+    color:black;
+}
+
+/*----------------------- Header -----------------------*/
+
+header {
+    background-color: black;
+}
+
+/*Company Logo/name*/
+.navbar-brand {
+    margin-left: 10px;
+    color: #310250;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 80px;
+}
+
+/*Nav Bar Styles*/
+header .nav-link {
+    /*color: #1D3124;*/
+    color: #310250;
+}
+
+header .navbar-toggler-icon img {
+    padding-top: 5px;
+    z-index: -1;
+}
+
+/*Drop Down Menu*/
+header .dropdown-menu {
+    background-color: black;
+}
+
+.social img {
+    padding-right: 5px;
+
+}
+/*-----------------------      -----------------------*/
+/*-----------------------    Form    -----------------------*/
+
+.contact {
+    margin-top: 10px;
+    /*background-color: white;*/
+}
+
+.fillin {
+    margin-top: 5px;
+}
+
+.submit {
+    margin-top: 5px;
+    float:right;
+}
+
+/*----------------------- Footer -----------------------*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+/*-----------------------        -----------------------*/
